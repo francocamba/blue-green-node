@@ -8,7 +8,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 
 app.get('/', function(req, res, next) {
-    res.render('index', { title: 'Hello World! It is (almost) Christmas!' });
+    res.render('index', { title: 'Hello World!!' });
 });
 
 module.exports = app;
